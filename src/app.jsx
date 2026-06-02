@@ -1075,40 +1075,7 @@ const App = () => {
       </footer>
 
       {/* Custom Styles */}
-      <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-        
-        .font-serif {
-          font-family: 'Playfair Display', serif;
-        }
-        .font-script {
-          font-family: 'Great Vibes', cursive;
-        }
-        .font-sans {
-          font-family: 'Plus Jakarta Sans', sans-serif;
-        }
-        body {
-          font-family: 'Plus Jakarta Sans', sans-serif;
-          background-color: #fdfaf5;
-        }
-        .no-scrollbar::-webkit-scrollbar { 
-          display: none; 
-        }
-        .no-scrollbar { 
-          -ms-overflow-style: none; 
-          scrollbar-width: none; 
-        }
-        .custom-scroll::-webkit-scrollbar {
-          width: 4px;
-        }
-        .custom-scroll::-webkit-scrollbar-track {
-          background: #fdfaf5;
-        }
-        .custom-scroll::-webkit-scrollbar-thumb {
-          background-color: #800020;
-          border-radius: 10px;
-        }
-      `}</style>
+     
     </div>
   );
 };
